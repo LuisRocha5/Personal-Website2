@@ -3,3 +3,10 @@ header{
   padding: 5px;
   text-align: right;
 }
+.home{
+  background-color: darkcyan;
+}
+.home-section{
+  text-align: center;
+  font-size: 2em;
+}
