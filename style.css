@@ -10,3 +10,15 @@ header{
   text-align: center;
   font-size: 2em;
 }
+.home-image{
+width: 450px;
+height: 450px; 
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.Henry{
+  text-align: center;
+  font-size: 2em;
+  font-family: cursive;
+}
