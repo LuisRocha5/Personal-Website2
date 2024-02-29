@@ -66,6 +66,12 @@ h3 {
   font-size: 2em;
   color: white;
 }
+.phone{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 
 .soccer-pic {
   width: 200px;
@@ -144,5 +150,10 @@ background-color: #45a049
   border-radius: 45px;
   background-color: #3a3153;
   padding: 20px;
+  color: white;
+}
+#last{
+  display: flex;
+  justify-content: center;
   color: white;
 }
