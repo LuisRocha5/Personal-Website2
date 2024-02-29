@@ -10,24 +10,40 @@
   <header>
     <h1>Luis Rocha</h1>
     <nav>
-      <a href="/index.html">Home</a>
-      <a href="./about.html">About</a>
-      <a href="./portfolio.html">Portfolio</a>
-      <a href="./contact-me.html">Contact Me</a>
+      <a class="link" href="/index.html">Home</a>
+      <a class="link" href="./about.html">About</a>
+      <a class="link" href="./portfolio.html">Portfolio</a>
+      <a class="link" id="current" href="./contact-me.html">Contact Me</a>
     </nav>
   </header>
-  <section>
-    <h2>Contact me</h2>
-    <form>
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name">
+  <section >
+    <h3>Contact me</h3>
+    <form class="contact">
+      <label for="name">Name:</label>
+      <input class="input" type="text" id="name" name="name" placeholder="Your Name">
+      <br>
 
-      <label for="email">Email</label>
-      <input type="text" id="email" name="email">
+      <label for="email">Email:</label>
+      <input class="input" type="text" id="email" name="email" placeholder="Your Email">
+      <br>
 
-      <label for="message">Message</label>
+      <label for="message">Message:</label>
+      <input class="box" type="text" id="message" name="message">
+      <br>
+
+      <a class="submit" href="./success.html">Submit</a>
     </form>
   </section>
+
+  <footer>
+    <p class="twitter">
+      <a href="https://twitter.com/Luis__Rocha5" target="_blank">
+        <img class="twitter-link"
+          src="https://cdn.vox-cdn.com/thumbor/Hvqx2gGzHlI8hnGoxPlLzfDVIJw=/0x0:3001x2001/1400x1400/filters:focal(1501x1001:1502x1002)/cdn.vox-cdn.com/uploads/chorus_asset/file/24805883/STK160_X_Twitter_001.jpg"
+          atl="X logo">
+      </a>
+    </p>
+  </footer>
 </body>
 
 </html>
